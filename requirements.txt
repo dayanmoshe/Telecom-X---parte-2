@@ -1,0 +1,35 @@
+# Core data and ML
+numpy
+pandas
+scikit-learn
+imbalanced-learn
+scipy
+joblib
+
+# Visualization and exports
+plotly
+kaleido
+matplotlib
+
+# Data access
+requests
+
+# Reporting
+fpdf
+
+# Notebook (for running locally)
+jupyter
+ipykernel
+How to add this file to your GitHub repo
+
+Save locally:
+Create a new file named requirements.txt and paste the content above.
+Install dependencies locally (optional):
+python -m venv .venv
+On macOS/Linux: source .venv/bin/activate
+On Windows (PowerShell): ..venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+Commit and push:
+git add requirements.txt
+git commit -m "Add requirements.txt"
+git push
